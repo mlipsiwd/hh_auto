@@ -24,7 +24,6 @@ def send_req(item):
 def on_click():
 
     if (form.lineEdit.text() or form.lineEdit_2.text() or form.lineEdit_3.text()) == "":
-        print ("hui")
         return 0
 
     n = 0
